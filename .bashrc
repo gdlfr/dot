@@ -2,6 +2,12 @@
 HISTSIZE=10000
 HISTFILESIZE=20000
 
+# -------------- keyboard ---------------
+#setxkbmap -query | grep layout
+
+#_have setxkbmap && test -n "$DISPLAY" && \
+#  setxkbmap -option caps:escape &>/dev/null
+
 # --------------- aliases ---------------
 #alias ll='ls -l'
 #alias la='ls -A'
