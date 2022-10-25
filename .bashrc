@@ -17,7 +17,7 @@ HISTFILESIZE=20000
 alias k=kubectl
 complete -o default -F __start_kubectl k
 alias '?'=duck
-
+alias Repos='cd /media/gdlfr/data/Repos'
 #echo 'alias k=kubectl' >>~/.bashrc
 #echo 'complete -o default -F __start_kubectl k' >>~/.bashrc
 
