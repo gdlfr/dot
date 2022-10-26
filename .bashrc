@@ -9,6 +9,11 @@ HISTFILESIZE=20000
 #_have setxkbmap && test -n "$DISPLAY" && \
 #  setxkbmap -option caps:escape &>/dev/null
 
+# ------------ stty annoyances ----------
+# stop blocking printing output in terminal
+# after pressing Ctrl+S 
+stty stop underf
+
 # --------------- aliases ---------------
 #alias ll='ls -l'
 #alias la='ls -A'
