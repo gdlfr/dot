@@ -14,6 +14,9 @@ HISTFILESIZE=20000
 # after pressing Ctrl+S 
 stty stop underf
 
+#-- environment variables --------------
+
+
 # --------------- aliases ---------------
 #alias ll='ls -l'
 #alias la='ls -A'
