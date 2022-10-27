@@ -14,8 +14,12 @@ HISTFILESIZE=20000
 # after pressing Ctrl+S 
 stty stop underf
 
-#-- environment variables --------------
-
+# -------- environment variables --------
+export USER="${USER:-$(whoami)}"
+export GITUSER="$USER"
+export REPOS="$HOME/Repos"
+export GHREPOS="$REPOS/github.com/$GITUSER"
+export DOTFILES="$GHREPOS/dot"
 
 # --------------- aliases ---------------
 #alias ll='ls -l'
