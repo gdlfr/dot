@@ -21,6 +21,10 @@ export REPOS="$HOME/Repos"
 export GHREPOS="$REPOS/github.com/$GITUSER"
 export DOTFILES="$GHREPOS/dot"
 
+export DESKTOP="$HOME/Desktop"
+export DOCUMENTS="$HOME/Documents"
+export DOWNLOADS="$HOME/Downloads"
+
 # --------------- aliases ---------------
 #alias ll='ls -l'
 #alias la='ls -A'
