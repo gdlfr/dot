@@ -24,7 +24,7 @@ export SCRIPTS="$DOTFILES/scripts"
 export DESKTOP="$HOME/Desktop"
 export DOCUMENTS="$HOME/Documents"
 export DOWNLOADS="$HOME/Downloads"
-
+export MUSIC="$HOME/Music"
 # --------------- aliases ---------------
 #alias ll='ls -l'
 #alias la='ls -A'
@@ -51,5 +51,3 @@ up() {
     times=$(($times - 1))
   done
 }
-
-
