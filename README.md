@@ -1,7 +1,8 @@
 # .files  
   
-These are my dotfiles.  
-  
+These are my .dotfiles:
+
+~/.bashrc  
 ~/.vimrc  
   
 ## Usefull scripts  ##  
